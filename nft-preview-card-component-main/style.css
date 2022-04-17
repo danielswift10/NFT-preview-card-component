@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+body{
+    font-family: 'Outfit', sans-serif; 
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    padding: 21px;
+}
+
+.image-equilibrium{
+    border-radius: 14px;
+    background-image: url("images/image-equilibrium.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 280px;
+}
+
+.image-equilibrium-view{
+    background-color: hsla(178, 100%, 50%, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    border: none;
+    border-radius: 14px;
+    visibility: hidden;
+}
+
+.icon-view{
+    border: 1px solid transparent;
+    margin: 120px;
+    border-radius: 0px;
+}
+
+.image-equilibrium:hover .image-equilibrium-view{
+    visibility: visible;
+}
+
+
+.text-box-1{
+    margin-top: 10px;
+    margin-bottom: 23px;
+}
+
+h1 a{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+}
+
+h1 a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+h1{
+    padding: 0 0 10px 0;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1.0rem;
+    color: hsl(215, 51%, 70%);
+    text-align: left;
+}
+
+.text-box-2{
+    margin-bottom: 15px;
+    padding-top: 1px;
+    padding-bottom: 8px ;
+}
+
+/*p{
+    font-weight: 300;
+    font-size: 18px;
+    color: hsl(220, 15%, 55%);
+    text-align: left;
+}*/
+
+.currency{
+    color: hsl(178, 100%, 50%);
+    background-image: url("images/icon-ethereum.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: scroll;
+    background-size: 10px 16px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    width: 100px;
+    padding-left: 15px;
+}
+
+.time{
+    background-image: url("images/icon-clock.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: scroll;
+    background-size: 17px 17px;
+    text-align: right;
+    margin-top: -22px;
+    margin-left: 175px;
+    font-weight: 400;
+    font-size: 16px;
+    width: 98px;
+    color: hsl(220, 15%, 55%);
+}
+
+.text-box-3{
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 14px;
+    padding-bottom: 10px;
+    margin-bottom: 9px;
+}
+
+img{
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.bottom-text{
+    width: 200px;
+    margin-top: -30px;
+    margin-left: 40px;
+}
+
+.p-1{
+    font-weight: 300;
+    font-size: 16px;
+    color: hsl(220, 15%, 55%);
+    text-align: left;
+}
+
+.p-2{
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 76px;
+    font-weight: 300;
+    font-size: 16px;
+    width: 110px;
+    color:  hsl(0, 0%, 100%);
+}
+
+.p-2 a{
+    color:  hsl(0, 0%, 100%);
+}
+
+.p-2 a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution{ 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution p{
+    color: white;
+}
+.attribution a { 
+    color:  hsl(0, 0%, 100%); 
+}
